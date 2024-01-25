@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #222;
+}
+
+.tree {
+  position: relative;
+}
+
+.trunk {
+  position: relative;
+  top: 90px;
+  width: 50px;
+  height: 150px;
+  background-color: brown;
+  margin: 0 auto;
+}
+
+.tree-top {
+  position: relative;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 150px solid green;
+  position: absolute;
+}
+
+.triangle:nth-child(1) {
+  top: -280px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  animation: sparkle 4s infinite alternate;
+}
+
+.triangle:nth-child(2) {
+  top: -240px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  animation: sparkle 4s infinite alternate;
+  animation-delay: 1s;
+
+}
+
+.triangle:nth-child(3) {
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  animation: sparkle 4s infinite alternate;
+  animation-delay: 2s;
+}
+
+.triangle:nth-child(4) {
+  top: -160px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+  animation: sparkle 4s infinite alternate;
+  animation-delay: 3s;
+
+}
+
+.triangle:nth-child(5) {
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+@keyframes sparkle {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
