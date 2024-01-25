@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thala</title>
+    <link rel="stylesheet" href="Thala.css">
+    <style>
+        * {
+            font-family: cursive;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="main"> -->
+        <form>
+            <fieldset>
+                <legend>007</legend>
+                <table align="center" border="0">
+                    <tr>
+                        <td><label for="num">Enter any text here </label></td>
+                        <td>:</td>
+                        <td><input type="text" name="num" id="letterInput"></td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="3">
+                            <button onclick="checkInput()">Submit</button>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+
+    <script >
+        console.log(location);
+        function checkInput() {
+            var x = document.getElementById("letterInput");
+            var y = x.value;
+            if (y.length === 7) {
+                alert("Message is clear !!!");
+                window.open("file:///C:/Users/ADMIN/Desktop/Thala/video.html")
+            }
+            else {
+                alert("Message is not clear");
+            }
+        }
+    </script>
+</body>
+
+</html>
