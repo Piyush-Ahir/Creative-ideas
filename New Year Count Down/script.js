@@ -10,7 +10,7 @@ function NewYear(){
   
     const remainigHr = remainigTime - days * 1000 * 60 * 60 * 24;
     const hours = Math.floor(remainigHr / 3600000);
-  
+   
     // remaining Minute
     const remainigMin =
       remainigTime - days * 1000 * 60 * 60 * 24 - hours * 1000 * 60 * 60;
