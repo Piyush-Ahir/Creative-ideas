@@ -16,7 +16,7 @@ body {
   .back ul li {
     white-space: nowrap;
   } 
-  .back ul li a {
+  .back ul li a { 
     text-decoration: none;
   }
   .back ul.nav-history {
