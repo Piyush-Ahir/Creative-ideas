@@ -13,7 +13,7 @@ body {
     margin-bottom: 0;
     list-style: none;
   }
-  .back ul li {
+  .back ul li { 
     white-space: nowrap;
   } 
   .back ul li a {
