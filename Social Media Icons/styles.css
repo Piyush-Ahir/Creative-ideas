@@ -10,7 +10,7 @@ box-sizing: border-box;
 outline: none !important;
 -webkit-tap-highlight-color: transparent;
 }
- 
+  
 html,
 body {
 display: grid;
