@@ -5,17 +5,17 @@ body {
   .back {
     position: fixed;
     top: 40px;
-    left: 40px;
-    width: 100px;
+    left: 40px; 
+    width: 100px; 
   }
-  .back ul {
+  .back ul { 
     display: block;
     margin-bottom: 0;
     list-style: none;
   }
-  .back ul li {
+  .back ul li { 
     white-space: nowrap;
-  }
+  } 
   .back ul li a {
     text-decoration: none;
   }

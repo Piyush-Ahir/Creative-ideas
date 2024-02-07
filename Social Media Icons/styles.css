@@ -2,15 +2,15 @@
 * {
 margin: 0;
 padding: 0;
-box-sizing: border-box;
+box-sizing: border-box; 
 }
-
-*:focus,
+  
+*:focus, 
 *:active {
 outline: none !important;
 -webkit-tap-highlight-color: transparent;
 }
-
+  
 html,
 body {
 display: grid;

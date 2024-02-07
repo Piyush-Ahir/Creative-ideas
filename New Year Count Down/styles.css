@@ -5,8 +5,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-    zoom: 200%;
+body { 
+    zoom: 200%; 
     background-image: url(worldmap.jpeg);
     background-position: center;
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@ margin-top: 20px;
 }
 .box-time h2 {
   font-size: 2.5rem;
-}
+} 
 
 .box-time p {
   font-size: 2rem;
