@@ -6,4 +6,4 @@ $(".inner-switch").on("click", function () {
         $("body").addClass("dark");
         $(".inner-switch").text("ON");
     }
-}); 
+});  
